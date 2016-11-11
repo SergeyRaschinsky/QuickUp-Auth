@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "AuthorizationExample.Data.Dal": "1.0.0-*",
+    "AuthorizationExample.Services": "1.0.0-*",
+    "AuthorizationExample.Services.Contracts": "1.0.0-*",
+    "Microsoft.AspNetCore.Http.Abstractions": "1.0.0",
+    "Microsoft.AspNetCore.Identity": "1.0.0",
+    "Microsoft.Extensions.Logging.Abstractions": "1.0.0",
+    "Microsoft.Extensions.Options": "1.0.0",
+    "Microsoft.IdentityModel.Tokens": "5.0.0",
+    "NETStandard.Library": "1.6.0",
+    "System.IdentityModel.Tokens.Jwt": "5.0.0",
+    "System.Security.Claims": "4.0.1"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
